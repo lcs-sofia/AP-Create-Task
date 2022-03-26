@@ -12,6 +12,15 @@ struct AP_Create_TaskApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            
+            NavigationView {
+       //         TeacherList(store: store)
+            }
+            .tabItem {
+                Image(systemName: "list.bullet")
+                Text("Teachers")
+            }
+            
         }
     }
 }
