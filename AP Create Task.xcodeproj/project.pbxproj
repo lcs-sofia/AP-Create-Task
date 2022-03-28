@@ -15,6 +15,7 @@
 		56D9EA0627EF5BC70052D204 /* InformationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D9EA0527EF5BC70052D204 /* InformationList.swift */; };
 		56D9EA0A27EF5EEE0052D204 /* InformationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D9EA0927EF5EEE0052D204 /* InformationStore.swift */; };
 		56D9EA1327EF62EA0052D204 /* grovetimes.JSON in Resources */ = {isa = PBXBuildFile; fileRef = 56D9EA1227EF62EA0052D204 /* grovetimes.JSON */; };
+		56E57C3127F234CC00241567 /* InformationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E57C3027F234CB00241567 /* InformationDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		56D9EA0527EF5BC70052D204 /* InformationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationList.swift; sourceTree = "<group>"; };
 		56D9EA0927EF5EEE0052D204 /* InformationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationStore.swift; sourceTree = "<group>"; };
 		56D9EA1227EF62EA0052D204 /* grovetimes.JSON */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = grovetimes.JSON; sourceTree = "<group>"; };
+		56E57C3027F234CB00241567 /* InformationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				56D9EA0527EF5BC70052D204 /* InformationList.swift */,
+				56E57C3027F234CB00241567 /* InformationDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			files = (
 				56D9EA0A27EF5EEE0052D204 /* InformationStore.swift in Sources */,
 				56D9EA0227EF57EE0052D204 /* Information.swift in Sources */,
+				56E57C3127F234CC00241567 /* InformationDetail.swift in Sources */,
 				56864E6527EE134A00DB2A23 /* AP_Create_TaskApp.swift in Sources */,
 				56D9EA0627EF5BC70052D204 /* InformationList.swift in Sources */,
 			);
