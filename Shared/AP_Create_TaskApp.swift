@@ -11,14 +11,14 @@ import SwiftUI
 struct AP_Create_TaskApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           //          ContentView()
             
             NavigationView {
-       //         TeacherList(store: store)
+       //         Information(store: store)
             }
             .tabItem {
                 Image(systemName: "list.bullet")
-                Text("Teachers")
+                Text("Grove Time")
             }
             
         }

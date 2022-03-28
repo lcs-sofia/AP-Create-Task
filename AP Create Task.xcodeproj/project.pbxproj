@@ -11,8 +11,10 @@
 		56864E6627EE134A00DB2A23 /* AP_Create_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56864E5527EE134800DB2A23 /* AP_Create_TaskApp.swift */; };
 		56864E6927EE134A00DB2A23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56864E5727EE134A00DB2A23 /* Assets.xcassets */; };
 		56864E6A27EE134A00DB2A23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56864E5727EE134A00DB2A23 /* Assets.xcassets */; };
-		56864E7B27EE1DDB00DB2A23 /* TeacherList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56864E7A27EE1DDB00DB2A23 /* TeacherList.swift */; };
 		56D9EA0227EF57EE0052D204 /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D9EA0127EF57EE0052D204 /* Information.swift */; };
+		56D9EA0627EF5BC70052D204 /* InformationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D9EA0527EF5BC70052D204 /* InformationList.swift */; };
+		56D9EA0A27EF5EEE0052D204 /* InformationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D9EA0927EF5EEE0052D204 /* InformationStore.swift */; };
+		56D9EA1327EF62EA0052D204 /* grovetimes.JSON in Resources */ = {isa = PBXBuildFile; fileRef = 56D9EA1227EF62EA0052D204 /* grovetimes.JSON */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +22,10 @@
 		56864E5727EE134A00DB2A23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56864E5C27EE134A00DB2A23 /* AP Create Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AP Create Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56864E6227EE134A00DB2A23 /* AP Create Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AP Create Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		56864E7A27EE1DDB00DB2A23 /* TeacherList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherList.swift; sourceTree = "<group>"; };
 		56D9EA0127EF57EE0052D204 /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
+		56D9EA0527EF5BC70052D204 /* InformationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationList.swift; sourceTree = "<group>"; };
+		56D9EA0927EF5EEE0052D204 /* InformationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationStore.swift; sourceTree = "<group>"; };
+		56D9EA1227EF62EA0052D204 /* grovetimes.JSON */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = grovetimes.JSON; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				56D9EA0127EF57EE0052D204 /* Information.swift */,
+				56D9EA1227EF62EA0052D204 /* grovetimes.JSON */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -82,6 +87,7 @@
 		56864E7427EE1B4F00DB2A23 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				56D9EA0927EF5EEE0052D204 /* InformationStore.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -89,7 +95,7 @@
 		56864E7527EE1B8700DB2A23 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				56864E7A27EE1DDB00DB2A23 /* TeacherList.swift */,
+				56D9EA0527EF5BC70052D204 /* InformationList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56D9EA1327EF62EA0052D204 /* grovetimes.JSON in Resources */,
 				56864E6927EE134A00DB2A23 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,9 +199,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56D9EA0A27EF5EEE0052D204 /* InformationStore.swift in Sources */,
 				56D9EA0227EF57EE0052D204 /* Information.swift in Sources */,
-				56864E7B27EE1DDB00DB2A23 /* TeacherList.swift in Sources */,
 				56864E6527EE134A00DB2A23 /* AP_Create_TaskApp.swift in Sources */,
+				56D9EA0627EF5BC70052D204 /* InformationList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
