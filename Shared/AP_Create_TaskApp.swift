@@ -11,7 +11,10 @@ import SwiftUI
 struct AP_Create_TaskApp: App {
     var body: some Scene {
         WindowGroup {
-            InformationDetail()
+            NavigationView {
+                InformationDetail(Info: Information.example)
+            }
+            
         }
     }
 }

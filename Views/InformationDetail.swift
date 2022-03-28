@@ -8,21 +8,66 @@
 import SwiftUI
 
 struct InformationDetail: View {
+    
+    let Info: Information
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
         ScrollView {
+            
+            HStack {
+                Text(Info.firstname)
+                    .font(.title)
+                    .padding(.bottom)
+                Text(Info.lastname)
+                    .font(.title)
+                    .padding(.bottom)
+
+               Spacer()
+
+                Text("ZOOM LINK")
+                    .font(.title3)
+                   .bold()
+                   .padding(.vertical)
+
+           }
+            .padding(.horizontal)
+            Text(Info.zoomLink)
+            
+            HStack {
+
+                Text("Days")
+                    .font(.title3)
+                   .bold()
+                   .padding(.vertical)
+
+                Spacer()
+            }
+            .padding(.horizontal)
+            Text("Monday:")
+            Group {
+                Text(Info.monday)
+                Text("Tuesday:")
+                Text(Info.tuesday)
+                Text("Thursday:")
+                Text(Info.thursday)
+                Text("Friday:")
+                Text(Info.friday)
+            }
+
+
+
+        }
+        .navigationTitle(Info.firstname,Info.lastname)
+    }
+    
+
+struct InformationDetail_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationView {
+            InformationDetail(Info: Information.example)
             
         }
     }
 }
 
-struct InformationDetail_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView {
-            
-       
-        InformationDetail()
-        
-      }
-   }
 }
