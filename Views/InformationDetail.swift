@@ -57,7 +57,7 @@ struct InformationDetail: View {
 
 
         }
-        .navigationTitle(Info.firstname,Info.lastname)
+        .navigationTitle(Info.firstname)
     }
     
 
