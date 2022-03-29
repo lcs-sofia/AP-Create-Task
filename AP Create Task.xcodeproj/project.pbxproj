@@ -80,6 +80,7 @@
 		56864E7327EE1B3A00DB2A23 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				56D9EA0927EF5EEE0052D204 /* InformationStore.swift */,
 				56D9EA0127EF57EE0052D204 /* Information.swift */,
 				56D9EA1227EF62EA0052D204 /* grovetimes.JSON */,
 			);
@@ -89,7 +90,6 @@
 		56864E7427EE1B4F00DB2A23 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				56D9EA0927EF5EEE0052D204 /* InformationStore.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
