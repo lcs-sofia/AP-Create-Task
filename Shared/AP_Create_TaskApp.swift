@@ -9,10 +9,13 @@ import SwiftUI
 
 @main
 struct AP_Create_TaskApp: App {
+    
+    @StateObject var store = InformationStore()
+    
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                InformationDetail(Info: Information.example)
+                InformationDetail(session: Information.example)
             }
             
         }

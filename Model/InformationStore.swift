@@ -6,9 +6,9 @@
 //
 
 import Foundation
-class InformatioStore: ObservableObject {
+class InformationStore: ObservableObject {
     
-    var places: [Information]
+    var sessions: [Information]
         
     init() {
         
@@ -16,12 +16,14 @@ class InformatioStore: ObservableObject {
         
         let data = try! Data(contentsOf: url)
         
-        places = try! JSONDecoder().decode([Information].self, from: data)
+        sessions = try! JSONDecoder().decode([Information].self, from: data)
         
-        places.sort(by: {
+        sessions.sort(by: {
             $0.firstname < $1.firstname
         })
         
     }
     
 }
+
+var testStore = InformationStore()

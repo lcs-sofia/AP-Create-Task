@@ -9,16 +9,16 @@ import SwiftUI
 
 struct InformationDetail: View {
     
-    let Info: Information
+    let session: Information
     var body: some View {
         
         ScrollView {
             
             HStack {
-                Text(Info.firstname)
+                Text(session.firstname)
                     .font(.title)
                     .padding(.bottom)
-                Text(Info.lastname)
+                Text(session.lastname)
                     .font(.title)
                     .padding(.bottom)
 
@@ -31,7 +31,7 @@ struct InformationDetail: View {
 
            }
             .padding(.horizontal)
-            Text(Info.zoomLink)
+            Text(session.zoomLink)
             
             HStack {
 
@@ -45,26 +45,26 @@ struct InformationDetail: View {
             .padding(.horizontal)
             Text("Monday:")
             Group {
-                Text(Info.monday)
+                Text(session.monday)
                 Text("Tuesday:")
-                Text(Info.tuesday)
+                Text(session.tuesday)
                 Text("Thursday:")
-                Text(Info.thursday)
+                Text(session.thursday)
                 Text("Friday:")
-                Text(Info.friday)
+                Text(session.friday)
             }
 
 
 
         }
-        .navigationTitle(Info.firstname)
+        .navigationTitle(session.firstname)
     }
     
 
 struct InformationDetail_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            InformationDetail(Info: Information.example)
+            InformationDetail(session: Information.example)
             
         }
     }
