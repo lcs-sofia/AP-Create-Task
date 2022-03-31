@@ -1,0 +1,115 @@
+[
+    {
+        "id": 2,
+        "firstname": "Pete",
+        "lastname": "Andras",
+        "zoomLink": "https://lakefieldcs.zoom.us/j/82229406595 Passcode: andras",
+        "monday": "1:30 - 2:00",
+        "tuesday": "12:30 - 1:00",
+        "thursday": "By Appointment",
+        "friday": "By Appointment",
+        
+    },
+    {
+        "id": 3,
+        "firstname": "Greg",
+        "lastname": "Adams",
+        "zoomLink": "https://lakefieldcs.zoom.us/j/84990070025\nPasscode: 212691",
+        "monday": "12:30 - 1:00 ",
+        "tuesday": "By appointment",
+        "thursday": "By appointment",
+        "friday": "12:30 - 1:00",
+        
+    },
+    {
+        "id": 4,
+        "firstname": "Heather",
+        "lastname": "Adams",
+        "zoomLink": "https://lakefieldcs.zoom.us/j/8830115899.  Passcode: Adams",
+        "monday": "By appointment",
+        "tuesday": "12:30-1:00",
+        "thursday": "12:30-1:00",
+        "friday": "By appointment",
+        
+    },
+    {
+        "id": 9,
+        "firstname": "John",
+        "lastname": "Braeckman",
+        "zoomLink": "https://lakefieldcs.zoom.us/j/802397997                         Passcode: goat\n\n",
+        "monday": "1:00 - 2:00",
+        "tuesday": "1:00 - 2:00",
+        "thursday": "1:00 - 2:00",
+        "friday": "1:00 - 2:00",
+        
+    },
+    {
+        "id": 17,
+        "firstname": "Alaina",
+        "lastname": "Connelly",
+        "zoomLink": "https://lakefieldcs.zoom.us/j/82440036107\nMeeting ID: 824 4003 6107\nPasscode: Connelly",
+        "monday": "by appointment ",
+        "tuesday": "12:30-1:00 - Zoom",
+        "thursday": "by appointment",
+        "friday": "by appointment",
+        
+        
+    },
+    {
+        "id": 24,
+        "firstname": "Elliott",
+        "lastname": "Exton",
+        "zoomLink": "lakefieldcs.zoom.us/j/91787675120 Passcode: extonium",
+        "monday": "By appointment (12:30-2pm)",
+        "tuesday": "By appointment (12:30-2pm)",
+        "thursday": "By appointment (12:30-2pm)",
+        "friday": "By appointment (12:30-2pm)",
+        
+    },
+    {
+        "id": 28,
+        "firstname": "Tobey",
+        "lastname": "Gullick-Scott",
+        "zoomLink": "https://lakefieldcs.zoom.us/j/86362249184   passcode: 304031",
+        "monday": "By Appointment via Zoom (12:30-2pm)",
+        "tuesday": "By Appointment via Zoom (12:30-2pm)",
+        "thursday": "By Appointment via Zoom (12:30-2pm)",
+        "friday": "By Appointment via Zoom (12:30-2pm)",
+        
+    },
+    {
+        "id": 55,
+        "firstname": "Heather",
+        "lastname": "Ross",
+        "zoomLink": "https://lakefieldcs.zoom.us/j/88998554167 Passcode: ross9",
+        "monday": "by appointment",
+        "tuesday": "1:15-2:00                    Rm 41",
+        "thursday": "by appointment",
+        "friday": "1:15-2:00                    Rm 41",
+        
+    },
+    {
+        "id": 57,
+        "firstname": "Stephanie",
+        "lastname": "Sparkman",
+        "zoomLink": "https://lakefieldcs.zoom.us/j/97238053788\nPasscode: sparky",
+        "monday": "By Appt (Zoom)\n12:30 - 1:15",
+        "tuesday": "By Appt (Zoom)\n12:30 - 1:15",
+        "thursday": "By Appt (Zoom)\n12:30 - 1:15",
+        "friday": "By Appt (Zoom)\n12:30 - 1:15",
+        
+    },
+    {
+        "id": 59,
+        "firstname": "Dayna",
+        "lastname": "Taylor",
+        "zoomLink": "https://lakefieldcs.zoom.us/j/98444358502 Password: lakefield",
+        "monday": "By Appointment",
+        "tuesday": "12:30-1:00 (Zoom)",
+        "thursday": "By Appointment",
+        "friday": "12:30-1:00 (Zoom)",
+        
+    },
+]
+ 
+ 
