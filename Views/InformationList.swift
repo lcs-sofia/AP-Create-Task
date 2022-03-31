@@ -13,10 +13,10 @@ struct InformationList: View {
     
     var body: some View {
        
-        List(store.sessions) { grovetimes in
+        List(store.sessions) { currentSession in
             
      
-            NavigationLink(destination: InformationDetail(grovetimes : grovetimes))
+            NavigationLink(destination: InformationDetail(session : currentSession))
         {
                 
                 HStack {
@@ -25,12 +25,7 @@ struct InformationList: View {
                     VStack(alignment: .leading) {
                         Text(currentSession.firstname)
                         Text(currentSession.lastname)
-                        Text(currentSession.zoomLink)
-                        Text(currentSession.monday)
-                        Text(currentSession.tuesday)
-                        Text(currentSession.thursday)
-                        Text(currentSession.friday)
-                        
+
                             .font(.subheadline)
                     }
                     
