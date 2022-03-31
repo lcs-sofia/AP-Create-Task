@@ -13,10 +13,10 @@ struct InformationList: View {
     
     var body: some View {
        
-        List(store.sessions) { currentSession in
+        List(store.sessions) { grovetimes in
             
      
-            NavigationLink(destination: InformationDetail(session : currentSession))
+            NavigationLink(destination: InformationDetail(grovetimes : grovetimes))
         {
                 
                 HStack {
