@@ -43,8 +43,8 @@ struct InformationDetail: View {
                 Spacer()
             }
             .padding(.horizontal)
-            Text("Monday:")
             Group {
+                Text("Monday:")
                 Text(session.monday)
                 Text("Tuesday:")
                 Text(session.tuesday)
@@ -52,8 +52,11 @@ struct InformationDetail: View {
                 Text(session.thursday)
                 Text("Friday:")
                 Text(session.friday)
-            }
+            
 
+                
+            }
+           
 
 
         }

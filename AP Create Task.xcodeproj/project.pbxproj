@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		565E39D027F7548100A3B8E3 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565E39CF27F7548100A3B8E3 /* SearchBarView.swift */; };
 		56864E6527EE134A00DB2A23 /* AP_Create_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56864E5527EE134800DB2A23 /* AP_Create_TaskApp.swift */; };
 		56864E6627EE134A00DB2A23 /* AP_Create_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56864E5527EE134800DB2A23 /* AP_Create_TaskApp.swift */; };
 		56864E6927EE134A00DB2A23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56864E5727EE134A00DB2A23 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		565E39CF27F7548100A3B8E3 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		56864E5527EE134800DB2A23 /* AP_Create_TaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AP_Create_TaskApp.swift; sourceTree = "<group>"; };
 		56864E5727EE134A00DB2A23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56864E5C27EE134A00DB2A23 /* AP Create Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AP Create Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +99,7 @@
 		56864E7527EE1B8700DB2A23 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				565E39CF27F7548100A3B8E3 /* SearchBarView.swift */,
 				56E57C3027F234CB00241567 /* InformationDetail.swift */,
 				568C910827F291C9000C6E48 /* InformationList.swift */,
 			);
@@ -206,6 +209,7 @@
 				56D9EA0227EF57EE0052D204 /* Information.swift in Sources */,
 				56E57C3127F234CC00241567 /* InformationDetail.swift in Sources */,
 				56864E6527EE134A00DB2A23 /* AP_Create_TaskApp.swift in Sources */,
+				565E39D027F7548100A3B8E3 /* SearchBarView.swift in Sources */,
 				568C910927F291C9000C6E48 /* InformationList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
