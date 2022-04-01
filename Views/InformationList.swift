@@ -39,11 +39,12 @@ struct InformationList: View {
 
     }
 
+
+
+}
+
 struct InformationList_Previews: PreviewProvider {
     static var previews: some View {
         InformationList(store: testStore)
     }
 }
-
-}
-

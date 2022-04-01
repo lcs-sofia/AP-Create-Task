@@ -15,7 +15,7 @@ struct AP_Create_TaskApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                InformationDetail(session: Information.example)
+                InformationList(store: store)
             }
             
         }
