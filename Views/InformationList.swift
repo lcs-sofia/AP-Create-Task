@@ -35,7 +35,7 @@ struct InformationList: View {
         }
 
             
-    .navigationTitle("Grove Time")
+    .navigationTitle("Grove Times")
 
     }
 
