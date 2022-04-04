@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		565E39D027F7548100A3B8E3 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565E39CF27F7548100A3B8E3 /* SearchBarView.swift */; };
+		565E39D327F785B900A3B8E3 /* grovetimes.json in Resources */ = {isa = PBXBuildFile; fileRef = 565E39D227F785B900A3B8E3 /* grovetimes.json */; };
+		565E39D427F785B900A3B8E3 /* grovetimes.json in Resources */ = {isa = PBXBuildFile; fileRef = 565E39D227F785B900A3B8E3 /* grovetimes.json */; };
 		56864E6527EE134A00DB2A23 /* AP_Create_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56864E5527EE134800DB2A23 /* AP_Create_TaskApp.swift */; };
 		56864E6627EE134A00DB2A23 /* AP_Create_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56864E5527EE134800DB2A23 /* AP_Create_TaskApp.swift */; };
 		56864E6927EE134A00DB2A23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56864E5727EE134A00DB2A23 /* Assets.xcassets */; };
 		56864E6A27EE134A00DB2A23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56864E5727EE134A00DB2A23 /* Assets.xcassets */; };
 		568C910927F291C9000C6E48 /* InformationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C910827F291C9000C6E48 /* InformationList.swift */; };
-		569CF62727F5E6B200EE25A2 /* grovetimes.json in Resources */ = {isa = PBXBuildFile; fileRef = 569CF62627F5E6B200EE25A2 /* grovetimes.json */; };
 		56D9EA0227EF57EE0052D204 /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D9EA0127EF57EE0052D204 /* Information.swift */; };
 		56D9EA0A27EF5EEE0052D204 /* InformationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D9EA0927EF5EEE0052D204 /* InformationStore.swift */; };
 		56E57C3127F234CC00241567 /* InformationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E57C3027F234CB00241567 /* InformationDetail.swift */; };
@@ -21,12 +22,12 @@
 
 /* Begin PBXFileReference section */
 		565E39CF27F7548100A3B8E3 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		565E39D227F785B900A3B8E3 /* grovetimes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = grovetimes.json; sourceTree = "<group>"; };
 		56864E5527EE134800DB2A23 /* AP_Create_TaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AP_Create_TaskApp.swift; sourceTree = "<group>"; };
 		56864E5727EE134A00DB2A23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56864E5C27EE134A00DB2A23 /* AP Create Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AP Create Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56864E6227EE134A00DB2A23 /* AP Create Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AP Create Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		568C910827F291C9000C6E48 /* InformationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationList.swift; sourceTree = "<group>"; };
-		569CF62627F5E6B200EE25A2 /* grovetimes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = grovetimes.json; sourceTree = "<group>"; };
 		56D9EA0127EF57EE0052D204 /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
 		56D9EA0927EF5EEE0052D204 /* InformationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationStore.swift; sourceTree = "<group>"; };
 		56E57C3027F234CB00241567 /* InformationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationDetail.swift; sourceTree = "<group>"; };
@@ -84,7 +85,7 @@
 			children = (
 				56D9EA0927EF5EEE0052D204 /* InformationStore.swift */,
 				56D9EA0127EF57EE0052D204 /* Information.swift */,
-				569CF62627F5E6B200EE25A2 /* grovetimes.json */,
+				565E39D227F785B900A3B8E3 /* grovetimes.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,7 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				569CF62727F5E6B200EE25A2 /* grovetimes.json in Resources */,
+				565E39D327F785B900A3B8E3 /* grovetimes.json in Resources */,
 				56864E6927EE134A00DB2A23 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				565E39D427F785B900A3B8E3 /* grovetimes.json in Resources */,
 				56864E6A27EE134A00DB2A23 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

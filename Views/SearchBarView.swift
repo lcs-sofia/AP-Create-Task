@@ -7,39 +7,42 @@
 
 import SwiftUI
 
-struct SearchBarView: View {
+    //struct SearchBarView: View {
     
-    @State private var infos : firstname
+  //  @State private var infos : firstname
     
     
-    @State private var searchTerm = ""
     
-    var body: some View {
+ //   @State private var searchTerm = ""
+    
+  //  var body: some View {
         
-        List(filter(originalList: infos, using: searchTerm), id: \.self) {
-            currentsession in
-            Text (currentsession)
-        }
-        navigationTitle ("Teachers")
-            .searchable(text: $searchTerm)
+   //     List(filter(originalList: infos, using: searchTerm), id: \.self) {
+ //           currentsession in
+    //        Text (currentsession)
+  //      }
+     //   navigationTitle ("Teachers")
+ //           .searchable(text: $searchTerm)
         
-    }
+ //   }
     
-    func filter(originalList: [String], using term: String) -> [String] {
+//    func filter(originalList: [String], using term: String) -> [String] {
         
-        if term.isEmpty{
+  //      if term.isEmpty{
             
-            return originalList
-            
-        } else {
-            let temporaryList: [String] = ["Taylor"]
-            return temporaryList
-        }
-    }
-}
+  //          return originalList
+ //
+   //     } else {
+     //       let temporaryList: [String] = ["Taylor"]
+     //       return temporaryList
+     //   }
+   // }
+//}
 
-struct SearchBarView_Previews: PreviewProvider {
-    static var previews: some View {
-        SearchBarView()
-    }
-}
+//struct SearchBarView_Previews: PreviewProvider {
+    //  static var previews: some View {
+   //     SearchBarView()
+  //  }
+//}
+//}
+
