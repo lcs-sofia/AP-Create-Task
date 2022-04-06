@@ -28,7 +28,7 @@ struct InformationList: View {
             }
         }
         .navigationTitle("Grove Times")
-        .searchable(text: $searchTerm)
+        .searchable(text: $searchTerm, placement: .navigationBarDrawer(displayMode: .always))
     }
     
     func filter(originalList: [Information], using term: String) -> [Information] {
