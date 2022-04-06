@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct Information: Decodable, Identifiable {
+struct Information: Decodable, Identifiable, Hashable {
     let firstname: String
     let lastname: String
     let zoomLink: String
