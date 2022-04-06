@@ -11,54 +11,27 @@ struct InformationDetail: View {
     
     let session: Information
     var body: some View {
-        
-        ScrollView {
-            HStack {
-                Text(session.firstname)
-                    .font(.title)
-                    .padding(.bottom)
-                Text(session.lastname)
-                    .font(.title)
-                    .padding(.bottom)
-                    .padding(.vertical)
-                
-                Spacer()
-                
-                Text("ZOOM LINK")
-                    .font(.title3)
-                    .bold()
-                    .padding(.vertical)
-                    .background(Color.green)
-                
-            }
-            .padding(.horizontal)
+        VStack(alignment: .leading) {
+            VStack(alignment: .leading) {
+            Text("ZOOM LINK: ")
+                .font(.title2)
+                .bold()
             Text(session.zoomLink)
-                .background(Color.white)
+            }
+            .padding(.vertical)
             
-            HStack {
-                
-                Text("Weekdays for Grove time :")
-                    .font(.title2)
-                    .bold()
-                    .padding(.vertical)
-                
-                Spacer()
-            }
-            .padding(.horizontal)
+            Text("Weekdays for Grove Time:")
+                .font(.title2)
+                .bold()
             Group {
-                Text("Monday:")
-                Text(session.monday)
-                Text("Tuesday:")
-                Text(session.tuesday)
-                Text("Thursday:")
-                Text(session.thursday)
-                Text("Friday:")
-                Text(session.friday)
+                Text("Monday: \(session.monday)")
+                Text("Tuesday: \(session.tuesday)")
+                Text("Thursday: \(session.thursday)")
+                Text("Friday: \(session.friday)")
             }
-            .background(Color.white)
+            Spacer()
         }
-        .navigationTitle(session.firstname)
-        .background(Color.green)
+        .navigationTitle("\(session.firstname) \(session.lastname)")
     }
     
     
