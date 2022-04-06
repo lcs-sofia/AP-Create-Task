@@ -9,20 +9,13 @@ import SwiftUI
 
 struct InformationList: View {
     
+    // Connect to the datastore
     @ObservedObject var store : InformationStore
-    
-    // The list of ice cream flavours
-    @State private var flavours: [String] = ["Strawberry",
-                                             "Chocolate",
-                                             "Vanilla"]
     
     // The search term entered by the user
     @State private var searchTerm = ""
     
-    
-    
     var body: some View {
-        
         List(filter(originalList: store.sessions, using: searchTerm), id: \.self) { currentSession in
             NavigationLink(destination: InformationDetail(session : currentSession)) {
                 HStack {
@@ -36,24 +29,16 @@ struct InformationList: View {
         }
         .navigationTitle("Grove Times")
         .searchable(text: $searchTerm)
-    
-        
-       
     }
     
     func filter(originalList: [Information], using term: String) -> [Information] {
-        
         // User is not searching...
         if term.isEmpty {
-            
             // ...so return the original list
             return originalList
-            
         } else {
-            
+    
             // Return the filtered list
-            
-            // TODO: Delete lines 51 to 53 and replace with appropriate logic
             var filteredList: [Information] = [Information(firstname: "Pete",
                                                            lastname: "Andras",
                                                            zoomLink: "https://lakefieldcs.zoom.us/j/82229406595 Passcode: andras",
@@ -69,9 +54,7 @@ struct InformationList: View {
             }
             return filteredList
         }
-        
     }
-
 }
 
 struct InformationList_Previews: PreviewProvider {

@@ -13,7 +13,6 @@ struct InformationDetail: View {
     var body: some View {
         
         ScrollView {
-            
             HStack {
                 Text(session.firstname)
                     .font(.title)
@@ -22,27 +21,27 @@ struct InformationDetail: View {
                     .font(.title)
                     .padding(.bottom)
                     .padding(.vertical)
-
-               Spacer()
-
+                
+                Spacer()
+                
                 Text("ZOOM LINK")
                     .font(.title3)
-                   .bold()
-                   .padding(.vertical)
-                   .background(Color.green)
-
-           }
+                    .bold()
+                    .padding(.vertical)
+                    .background(Color.green)
+                
+            }
             .padding(.horizontal)
             Text(session.zoomLink)
-            .background(Color.white)
+                .background(Color.white)
             
             HStack {
-
+                
                 Text("Weekdays for Grove time :")
                     .font(.title2)
-                   .bold()
-                   .padding(.vertical)
-
+                    .bold()
+                    .padding(.vertical)
+                
                 Spacer()
             }
             .padding(.horizontal)
@@ -55,26 +54,20 @@ struct InformationDetail: View {
                 Text(session.thursday)
                 Text("Friday:")
                 Text(session.friday)
-             
-                
             }
             .background(Color.white)
-
-
         }
         .navigationTitle(session.firstname)
         .background(Color.green)
-
     }
     
-
-struct InformationDetail_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView {
-            InformationDetail(session: Information.example)
-            
+    
+    struct InformationDetail_Previews: PreviewProvider {
+        static var previews: some View {
+            NavigationView {
+                InformationDetail(session: Information.example)
+                
+            }
         }
     }
-}
-
 }
