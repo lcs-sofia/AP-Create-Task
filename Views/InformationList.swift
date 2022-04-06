@@ -48,10 +48,11 @@ struct InformationList: View {
                                                            friday: "By Appointment",
                                                            id: 2)]
             for currentSession in originalList {
-                if currentSession.firstname.contains(term) {
+                if currentSession.lastname.contains(term) {
                     filteredList.append(currentSession)
                 }
             }
+            filteredList.removeFirst()
             return filteredList
         }
     }
