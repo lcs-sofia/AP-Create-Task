@@ -21,6 +21,7 @@ struct InformationDetail: View {
                 Text(session.lastname)
                     .font(.title)
                     .padding(.bottom)
+                    .padding(.vertical)
 
                Spacer()
 
@@ -28,15 +29,17 @@ struct InformationDetail: View {
                     .font(.title3)
                    .bold()
                    .padding(.vertical)
+                   .background(Color.green)
 
            }
             .padding(.horizontal)
             Text(session.zoomLink)
+            .background(Color.white)
             
             HStack {
 
-                Text("Days")
-                    .font(.title3)
+                Text("Weekdays for Grove time :")
+                    .font(.title2)
                    .bold()
                    .padding(.vertical)
 
@@ -52,15 +55,16 @@ struct InformationDetail: View {
                 Text(session.thursday)
                 Text("Friday:")
                 Text(session.friday)
-            
-
+             
                 
             }
-           
+            .background(Color.white)
 
 
         }
         .navigationTitle(session.firstname)
+        .background(Color.green)
+
     }
     
 

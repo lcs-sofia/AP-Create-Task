@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		565E39D027F7548100A3B8E3 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565E39CF27F7548100A3B8E3 /* SearchBarView.swift */; };
 		565E39D327F785B900A3B8E3 /* grovetimes.json in Resources */ = {isa = PBXBuildFile; fileRef = 565E39D227F785B900A3B8E3 /* grovetimes.json */; };
 		565E39D427F785B900A3B8E3 /* grovetimes.json in Resources */ = {isa = PBXBuildFile; fileRef = 565E39D227F785B900A3B8E3 /* grovetimes.json */; };
 		56864E6527EE134A00DB2A23 /* AP_Create_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56864E5527EE134800DB2A23 /* AP_Create_TaskApp.swift */; };
@@ -21,7 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		565E39CF27F7548100A3B8E3 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		565E39D227F785B900A3B8E3 /* grovetimes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = grovetimes.json; sourceTree = "<group>"; };
 		56864E5527EE134800DB2A23 /* AP_Create_TaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AP_Create_TaskApp.swift; sourceTree = "<group>"; };
 		56864E5727EE134A00DB2A23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 		56864E7527EE1B8700DB2A23 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				565E39CF27F7548100A3B8E3 /* SearchBarView.swift */,
 				56E57C3027F234CB00241567 /* InformationDetail.swift */,
 				568C910827F291C9000C6E48 /* InformationList.swift */,
 			);
@@ -211,7 +208,6 @@
 				56D9EA0227EF57EE0052D204 /* Information.swift in Sources */,
 				56E57C3127F234CC00241567 /* InformationDetail.swift in Sources */,
 				56864E6527EE134A00DB2A23 /* AP_Create_TaskApp.swift in Sources */,
-				565E39D027F7548100A3B8E3 /* SearchBarView.swift in Sources */,
 				568C910927F291C9000C6E48 /* InformationList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
