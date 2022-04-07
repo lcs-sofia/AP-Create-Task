@@ -6,6 +6,7 @@
 //
 
 import Foundation
+// Set strings for all the information
 struct Information: Decodable, Identifiable, Hashable {
     let firstname: String
     let lastname: String
@@ -15,7 +16,7 @@ struct Information: Decodable, Identifiable, Hashable {
     let thursday: String
     let friday: String
     let id: Int
-    
+// Example of how information should be distributed 
     static let example = Information(firstname: "Pete",
                                      lastname: "Andras",
                                      zoomLink: "https://lakefieldcs.zoom.us/j/82229406595 Passcode: andras",

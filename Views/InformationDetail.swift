@@ -8,17 +8,23 @@
 import SwiftUI
 
 struct InformationDetail: View {
+    // Layout for the app
     
     let session: Information
     var body: some View {
         VStack(alignment: .leading) {
             VStack(alignment: .leading) {
+                
+                // Title
+    
             Text("ZOOM LINK: ")
                 .font(.title2)
                 .bold()
             Text(session.zoomLink)
             }
             .padding(.vertical)
+            
+            // Title
             
             Text("Weekdays for Grove Time:")
                 .font(.title2)
@@ -32,6 +38,7 @@ struct InformationDetail: View {
             Spacer()
         }
         .navigationTitle("\(session.firstname) \(session.lastname)")
+        // Organize list by first and last names
     }
     
     

@@ -9,10 +9,10 @@ import SwiftUI
 
 struct InformationList: View {
     
-    // Connect to the datastore
+    // Link to the datastore
     @ObservedObject var store : InformationStore
     
-    // The search term entered by the user
+    // Search term put in by the user
     @State private var searchTerm = ""
     
     var body: some View {
@@ -27,18 +27,23 @@ struct InformationList: View {
                 }
             }
         }
+        
+        //Search Bar
+        
         .navigationTitle("Grove Times")
         .searchable(text: $searchTerm, placement: .navigationBarDrawer(displayMode: .always))
     }
     
     func filter(originalList: [Information], using term: String) -> [Information] {
-        // User is not searching...
+        //Empty (NOTHING)
+        
         if term.isEmpty {
-            // ...so return the original list
+            // Bring back original list
+            
             return originalList
         } else {
     
-            // Return the filtered list
+            // Give back filtered list
             var filteredList: [Information] = [Information(firstname: "Pete",
                                                            lastname: "Andras",
                                                            zoomLink: "https://lakefieldcs.zoom.us/j/82229406595 Passcode: andras",
